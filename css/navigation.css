@@ -40,6 +40,10 @@ header {
     transition: all 0.25s ease-in-out;
 }
 
+.reverse {}
+
+
+
 /* ------------------------------------------- */
 
 .logo_wrap {
@@ -55,12 +59,17 @@ header {
     height: 34px;
 }
 
+
 .logo_wrap svg path { 
     fill: var(--primary);
     transition: all 0.25s ease-in-out;
 }
 .logo_wrap:hover svg path { 
     fill: var(--navy);
+}
+
+.reverse .logo_wrap svg path { 
+    fill: var(--white);
 }
 
 svg.logo path { 
@@ -178,8 +187,15 @@ nav ul li  {
 }
 
 .menu-link, 
-nav ul li a { margin: 0; }
+nav ul li a { 
+    margin: 0; 
+    color: rgba(var(--black-rgb),0.8);
+}
 
+.reverse .menu-link, 
+.reverse nav ul li a { 
+    color: rgba(var(--white-rgb),1.0);
+}
 
 .menu-link:hover, 
 nav ul li a:hover { 

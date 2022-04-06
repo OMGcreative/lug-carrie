@@ -131,6 +131,10 @@ video:after {
     /* padding: 0 5%; */
 }
 
+.why_subscribe [class*="row"] {
+    gap:3rem;
+}
+
 .why_subscribe .img_wrap {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -258,6 +262,10 @@ button[class*=".flickity"],
     /* padding: 0 5%; */
 }
 
+.why_choose [class*="row"] {
+    gap:3rem;
+}
+
 .why_choose .img_wrap {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -337,7 +345,7 @@ button[class*=".flickity"],
     animation: fadeEffect 1s;
   }
   .tab-pane p {
-    color: rgba(var(--white-rgb), 1);
+    /* color: rgba(var(--white-rgb), 1); */
   }
 
   .tab-pane.active {
@@ -360,16 +368,80 @@ button[class*=".flickity"],
 
 .accessories {}
 
+.accessories ._row {
+    gap: 1rem
+}
+
+.accessories h2 {
+    margin-bottom: 0;
+}
+
+.accessories .three_col
+/* ,
+.accessories .three_col h6,
+.accessories .three_col h5,
+.accessories .three_col p  */
+{
+    text-align: left !important;
+}
+
+.accessories h6 {
+    font-size: 16px;
+}
+
+.accessories h5 {
+    font-weight: 600;
+}
+
 
 .accessories [class*="column"]:first-of-type {
     /* padding: 0 5%; */
 }
 
 .accessories .img_wrap {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    /* margin-top: 10%; */
+    margin-bottom: 1rem;
 }
 .accessories .img_wrap img {
-    height: 30vh;
+    height: 40vh;
 }
 
+
+
+/* ------------------------------------------- */
+/* bikes */
+
+.tern_gsd {}
+
+section[class*="tern_"] {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+section[class*="tern_"] h2 {
+    margin-bottom: 0;
+}
+
+
+
+/* ------------------------------------------- */
+/* testimonials */
+
+.testimonials .column_third ._group {
+    padding: 1rem;
+    text-align: left;
+}
+
+.testimonials h5 {
+    margin-bottom: 0.5rem;
+}
+
+
+.testimonials h6 {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.stars {
+    margin-bottom: 0.5rem;
+}
