@@ -11,7 +11,7 @@ jQuery(document).ready(function( $ ){
         index = $(this).index();
 
         $(".tab-content .tab-pane").removeClass("active");
-        $(".tabs .tab-content > div:nth-child(" + (index + 1) + ")").addClass("active");
+        $(".tab-content > .tab-pane:nth-child(" + (index + 1) + ")").addClass("active");
     });
     
 });
