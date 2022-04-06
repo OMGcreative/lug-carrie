@@ -200,11 +200,10 @@ button:hover,
 }
 
 .reverse [class*="ghost"]:hover {
-    background-color: rgba(var(--white-rgb),0.7);
+    background-color: rgba(var(--primary-rgb),1.0);
     color: #fff;
     border-color: rgba(var(--primary-rgb),0.9);
 }
-
 
 button[class*="naked"] {
     background-color: rgba(var(--primary-rgb),0.0);

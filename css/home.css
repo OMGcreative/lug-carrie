@@ -432,6 +432,11 @@ section[class*="tern_"] h2 {
     text-align: left;
 }
 
+
+.testimonials h2 {
+    margin-bottom: 0;
+}
+
 .testimonials h5 {
     margin-bottom: 0.5rem;
 }
