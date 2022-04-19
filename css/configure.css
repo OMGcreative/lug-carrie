@@ -196,6 +196,12 @@ form {
 .checkbox {
   border-radius: 8px;
 }
+@media screen and (max-width:1080px){    
+    .checkbox {
+        width: 100%;
+    }
+}
+
 .checkbox:hover {
   box-shadow: 0 0 8px 0 rgba(var(--highlight), 0.5);
 }
@@ -209,9 +215,14 @@ form {
     margin-right: auto;
     /*   max-width: 640px; */
     padding-bottom: 30px;
-    user-select: none;
-    
+    user-select: none;  
 }
+@media screen and (max-width:1080px){    
+    .checkbox-group {
+        justify-content: flex-start;
+    }
+}
+
 .checkbox-group > * {
   margin: 0.5rem 0;
 }
@@ -282,6 +293,13 @@ form {
   position: relative;
   padding: 0.5rem 1rem 0.5rem 0.5rem;
 }
+
+@media screen and (max-width:1080px){    
+    .checkbox-tile {
+        justify-content: space-between;
+    }
+}
+
 
 .lrg .checkbox-tile {
     width: calc(100vw/6 - 2.5rem);
@@ -366,6 +384,11 @@ form {
   transition: 0.375s ease;
   text-align: left;
 }
+@media screen and (max-width:1080px){    
+    .checkbox-label {
+        width: 100%;
+    }
+}
 
 .checkbox-label div{
   color: #202020;
@@ -389,6 +412,7 @@ form {
   font-size: 13px;
   font-weight: 300;
   line-height: 1.45;
+  margin-right: 10%;
   color: var(--gray-600);
   /*  truncate text  */
   display: -webkit-box;
