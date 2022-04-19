@@ -1,8 +1,8 @@
 /* home.css */
 
-.home {}
+#home.home {}
 
-.hero {
+#home .hero {
     width: 100%;    
     height: 100vh;
     padding-top: var(--header_height);
@@ -10,6 +10,9 @@
     overflow: hidden;
 }
 
+#home .hero:after {
+    background-image: ;
+}
 
 /* ------------------------------------------- */
 /* content */
@@ -75,7 +78,8 @@ video:after {
 
 
 .play_button {
-    cursor: pointer;
+    cursor: pointer; 
+    margin-right: unset;
 }
 
 .play_button svg path  {
@@ -87,6 +91,10 @@ video:after {
 .play_button:hover .play .circle  {
     fill: rgba(var(--primary-rgb), 0.8);
     stroke: 3px solid white;
+}
+
+#buttonText {
+    margin-left: unset;
 }
 
 
@@ -213,7 +221,7 @@ video:after {
     width:100%;
     padding: 10%;
     top:0;
-    transform: scale(0.75) translateY(-15%);
+    transform: scale(0.75) translateY(-10%);
     -webkit-transition: all 0.5s ease-in-out ;
         transition: all 0.5s ease-in-out ;
 }
@@ -236,6 +244,7 @@ video:after {
 
 
 [class*="set_up-"] .gallery-cell .text_wrap{
+    width: 100%;
     position: absolute;
     z-index: 111;
     bottom: 0;

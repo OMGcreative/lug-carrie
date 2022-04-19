@@ -5,7 +5,7 @@
 @import url('colours.css');
 @import url('typography.css');
 @import url('structure.css');
-/* @import url('forms.css'); */
+@import url('forms.css');
 @import url('buttons.css');
 @import url('navigation.css');
 @import url('fullscreen.css');
@@ -16,6 +16,7 @@
 @import url('commuter.css');
 @import url('why_subscribe.css');
 @import url('accessories.css');
+@import url('configure.css');
 
 
 @import url('https://unpkg.com/aos@next/dist/aos.css');
