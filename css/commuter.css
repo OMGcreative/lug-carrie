@@ -58,7 +58,13 @@
 /* ------------------------------------------- */
 /* why tern */
 
-.why_tern { }
+
+.why_tern { 
+    gap: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 
 .why_tern ._row { 
     /* margin-top: 10%;
@@ -92,7 +98,7 @@
 
 
 .why_subscribe h2 {
-    margin-top: 0 !important;
+    /* margin-top: 0 !important; */
     text-align: center;
 }
 
